@@ -1,0 +1,2 @@
+The values input from the input function are all strings, 
+and should be converted using int() or float() before calculation.
