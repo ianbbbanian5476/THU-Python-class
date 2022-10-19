@@ -1,0 +1,5 @@
+f = int(input('Enter future value:'))
+r = int(input('Enter interest rate (as %):'))
+n = int(input('Enter number of years:'))
+present_value = f/((1 + (r / 100))**n)
+print(f'Present value: ${present_value:,.2f}')
