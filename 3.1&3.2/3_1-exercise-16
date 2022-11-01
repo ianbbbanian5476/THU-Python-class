@@ -1,0 +1,2 @@
+#true
+print(bool((1 * 1 < 1.5) or not (1 * 1 < 1)))
