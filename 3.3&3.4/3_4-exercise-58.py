@@ -4,8 +4,8 @@ word = [*word]
 check = 0
 for i in word:
     if i in vowel:
-        print('true')
-        check = 1
-        break
-if check == 0:
+        check += 1
+if check == 5:
+    print('true')
+else:
     print('false')
