@@ -6,6 +6,8 @@ def count0(key : str, test : str):
         count = 0
     return count
 
-print(count0('aa','aaabb'))
-k = split('hi guys',' ')
-print(k)
+    #if key in test:
+    #    ram = test.split(key)
+    #    count = len(ram) - 1
+    #else:
+    #    count = 0
