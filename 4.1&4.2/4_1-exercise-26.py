@@ -7,3 +7,5 @@ def count0(key : str, test : str):
     return count
 
 print(count0('aa','aaabb'))
+k = split('hi guys',' ')
+print(k)
