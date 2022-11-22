@@ -4,5 +4,8 @@ for i in range(int(input())):
     b = b.split(' ')
     b = list(map(int,b))
     b = sorted(b)
-    print(b)
-    print(b[round(int(a)/2)-1])
+    z = b[int(a)//2]
+    d = 0
+    for k in b:
+        d += abs(k-z)
+    print(d)
