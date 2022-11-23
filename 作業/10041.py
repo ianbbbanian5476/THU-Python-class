@@ -1,3 +1,4 @@
+#已通過測資系統
 for i in range(int(input())):
     a, b = input().split(' ',1)
 
