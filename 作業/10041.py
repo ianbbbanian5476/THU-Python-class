@@ -1,7 +1,6 @@
 #已通過測資系統
 for i in range(int(input())):
     a, b = input().split(' ',1)
-
     b = b.split(' ')
     b = list(map(int,b))
     b = sorted(b)
