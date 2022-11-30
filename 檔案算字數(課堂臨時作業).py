@@ -5,9 +5,7 @@ Line = file.readlines()
 word = {}
 count = 0
 for line in Line:
-    for i in line:
-        if i in string.punctuation:
-            i = ' '
+    line = line.translate(str.maketrans('', '', string.punctuation))
     word1 = line.split(' ')
     for k in word1:
         if k not in word.keys():
@@ -16,4 +14,4 @@ for line in Line:
             word[k] += 1
 
 print(word)
-print(f'全部的單字數：{sum(word.values())}\n全部的不重複字數：{len(word.keys())}\n最頻繁出現的單字{max(word, key=word.get)}')
+print(f'全部的單字數：{sum(word.values())}\n全部的不重複字數：{len(word.keys())}\n最頻繁出現的單字：{max(word, key=word.get)}({max(word.values())} times)')
