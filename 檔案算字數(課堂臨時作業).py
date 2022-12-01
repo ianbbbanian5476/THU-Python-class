@@ -5,6 +5,7 @@ Line = file.readlines()
 word = {}
 count = 0
 for line in Line:
+    line = line.lower()
     line = line.translate(str.maketrans('', '', string.punctuation))
     word1 = line.split(' ')
     for k in word1:
