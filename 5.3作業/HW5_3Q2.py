@@ -1,4 +1,3 @@
-#題目來自 LeetCode 1.Two Sum  https://leetcode.com/problems/two-sum/
 
 def twoSum(nums, target: int):
     for i in range(len(nums)):
